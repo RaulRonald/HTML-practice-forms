@@ -7,7 +7,7 @@ This is an exercise in practicing HTML form elements,Below are images of the pag
 ![Texto Alternativo](images/cadastro.png)
 03. leitura.HTML
 ![Texto Alternativo](images/leitura.png)
-04. atualiza.HTML
+04. atualizacao.HTML
 ![Texto Alternativo](images/atualiza.png)
 05. exclusao.HTML
 ![Texto Alternativo](images/exclusao.png)

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Leitura</title>
+</head>
+<body>
+    <h1>USUÁRIOS CADASTRADOS<br></h1>
+    <a href="Index.html">return</a>
+    <hr>
+    <form action="/leitura.html">
+        <label for="fname">Nome:</label><br>
+        <input type="text" id="fname" name="fname" value="Raul" readonly><br>
+        <label for="sname">Sobrenome:</label><br>
+        <input type="text" id="sname" name="sname" value="Marinho" readonly><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="batata@gmail.com" readonly><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="+[0-9]{2}-[0-9]{2}-[0-9]{1}-[0-9]{4}-[0-9]{4}" value="40028922" readonly><br>
+        <label for="ndata">Data de nascimento:</label><br>
+        <input type="date" id="ndata" name="ndata" value="2004-04-12" readonly><br>
+        <label for="gender">Gênero:</label><br>
+        <input type="text" id="gender" name="gender" value="Male" readonly><br>
+    </form>
+</body>
+</html>
